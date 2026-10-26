@@ -46,3 +46,72 @@ main h2 {
 main p {
     font-size: 16px;
 }
+
+/* colores */
+:root {
+    --color-primario: #183b56;
+    --color-fondo: #f1f5f9;
+    --color-texto: #243746;
+}
+
+/* estilos generales */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* encabezados */
+header {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 20px;
+}
+
+/* Título personal */
+header h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+/* Carrera */
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* MENU DE NAVEGACION */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+/* enlaces */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* efecto al pasar el mouse */
+nav a:hover {
+    background-color: #337d78;
+}
+
+/* contenido principal */
+main {
+    padding: 25px;
+}
+
+/* títulos */
+main h2 {
+    color: var(--color-primario);
+}
+
+/* párrafos */
+main p {
+    font-size: 16px;
+}
