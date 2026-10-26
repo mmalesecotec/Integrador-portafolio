@@ -81,37 +81,123 @@ header h2 {
     font-weight: normal;
 }
 
-/* MENU DE NAVEGACION */
+nav {
+    background-color: #183b56;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Lista del menu */
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
-    padding: 0;
-}
-
-/* enlaces */
-nav a {
-    color: white;
-    text-decoration: none;
+    gap: 15px;
+    margin: 10px;
     padding: 10px;
 }
 
-/* efecto al pasar el mouse */
+/* Enlaces del menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el mouse */
 nav a:hover {
-    background-color: #337d78;
+    background-color: #dceaf5;
+    color: #183b56;
 }
 
-/* contenido principal */
-main {
-    padding: 25px;
+/* Nombre del estudiante */
+.logo h1 {
+    color: white;
+    font-size: 26px;
+    margin: 0;
 }
 
-/* títulos */
-main h2 {
-    color: var(--color-primario);
+/* Carrera */
+nav h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
 }
 
-/* párrafos */
-main p {
+/* ==========================================
+   4. SECCION DE INICIO
+========================================== */
+#inicio {
+    padding: 30px;
+}
+
+#inicio img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+/* Desplazamiento suave entre secciones */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mantener el menu visible */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Diseño de las secciones */
+section {
+    padding: 30px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 12px;
+    scroll-margin-top: 130px;
+}
+
+/* Diseño de la tarjeta Sobre mi */
+.tarjeta {
+    padding: 20px;
+    background-color: #f1f5f9;
+    border-radius: 10px;
+}
+
+/* SECCION HABILIDADES */
+
+#habilidades {
+    background-color: white;
+    padding: 20px;
+    margin: 25px;
+}
+
+#habilidades h2 {
+    color: #183b56;
+    font-size: 26px;
+}
+
+#habilidades h3 {
+    color: #1e4f73;
+}
+
+#habilidades p {
     font-size: 16px;
 }
+
+#habilidades ul {
+    background-color: #f1f5f9;
+    padding: 20px 40px;
+}
+
+#habilidades li {
+    margin: 10px;
+}
+
