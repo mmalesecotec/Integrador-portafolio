@@ -1,0 +1,48 @@
+/* Colores */
+:root {
+    --color-primario: #183b56;
+    --color-fondo: #f1f5f9;
+    --color-texto: #243746;
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Encabeado */
+header {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 20px;
+}
+
+/* Título principal */
+header h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+/* carrera*/
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* principal */
+main {
+    padding: 25px;
+}
+
+/* titulos principal */
+main h2 {
+    color: var(--color-primario);
+}
+
+/* PARRAFOS */
+main p {
+    font-size: 16px;
+}
